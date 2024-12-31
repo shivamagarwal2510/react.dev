@@ -12,7 +12,1393 @@ There are a couple of likely reasons this warning could be appearing:
 
 3. React does not yet recognize the attribute you specified. This will likely be fixed in a future version of React. React will allow you to pass it without a warning if you write the attribute name lowercase.
 
-4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
+
+### Valid Elements in Select Tags
+
+When using `<select>` elements, React now allows the following child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example:
+```jsx
+<select>
+  <script>/* Scripts are allowed */</script>
+  <template>/* Templates are allowed */</template>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+```
+
+This matches the HTML specification for valid `<select>` content. Previously, `<script>` and `<template>` tags would trigger validation warnings despite being valid according to the HTML spec.
 
 ---
 
