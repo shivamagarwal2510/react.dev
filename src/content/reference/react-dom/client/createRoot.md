@@ -547,7 +547,7 @@ const root = createRoot(container, {
       });
     }
   }
-});
+});> Note: As of React 18.x, `<select>` elements support additional child elements including `<script>` and `<template>` tags, following HTML specification standards for parsing within select contexts.
 root.render(<App />);
 ```
 
