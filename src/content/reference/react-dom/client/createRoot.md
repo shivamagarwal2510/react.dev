@@ -32,7 +32,11 @@ const root = createRoot(domNode);
 React will create a root for the `domNode`, and take over managing the DOM inside it. After you've created a root, you need to call [`root.render`](#root-render) to display a React component inside of it:
 
 ```js
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 An app fully built with React will usually only have one `createRoot` call for its root component. A page that uses "sprinkles" of React for parts of the page may have as many separate roots as needed.
@@ -66,7 +70,11 @@ An app fully built with React will usually only have one `createRoot` call for i
 Call `root.render` to display a piece of [JSX](/learn/writing-markup-with-jsx) ("React node") into the React root's browser DOM node.
 
 ```js
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 React will display `<App />` in the `root`, and take over managing the DOM inside it.
@@ -134,7 +142,11 @@ If your app is fully built with React, create a single root for your entire app.
 import { createRoot } from 'react-dom/client';
 
 const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 Usually, you only need to run this code once at startup. It will:
@@ -161,7 +173,11 @@ import App from './App.js';
 import './styles.css';
 
 const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 ```js src/App.js
@@ -363,7 +379,11 @@ const root = createRoot(
     }
   }
 );
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 The <CodeStep step={1}>onUncaughtError</CodeStep> option is a function called with two arguments:
@@ -548,7 +568,11 @@ const root = createRoot(container, {
     }
   }
 });
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 ```js src/App.js
@@ -594,7 +618,11 @@ const root = createRoot(
     }
   }
 );
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 The <CodeStep step={1}>onCaughtError</CodeStep> option is a function called with two arguments:
@@ -779,7 +807,11 @@ const root = createRoot(container, {
     }
   }
 });
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 ```js src/App.js
@@ -873,7 +905,11 @@ const root = createRoot(
     }
   }
 );
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 The <CodeStep step={1}>onRecoverableError</CodeStep> option is a function called with two arguments:
@@ -1057,7 +1093,11 @@ const root = createRoot(container, {
     });
   }
 });
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 ```js src/App.js
@@ -1124,7 +1164,11 @@ import { createRoot } from 'react-dom/client';
 import App from './App.js';
 
 const root = createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 Until you do that, nothing is displayed.
@@ -1148,7 +1192,11 @@ root.render(App, {onUncaughtError});
 
 // ✅ Correct: pass options to createRoot.
 const root = createRoot(container, {onUncaughtError}); 
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 ---
@@ -1163,7 +1211,11 @@ If you're not sure what's happening, try logging it:
 const domNode = document.getElementById('root');
 console.log(domNode); // ???
 const root = createRoot(domNode);
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 For example, if `domNode` is `null`, it means that [`getElementById`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) returned `null`. This will happen if there is no node in the document with the given ID at the time of your call. There may be a few reasons for it:
@@ -1186,7 +1238,11 @@ This may happen if you call `root.render` with `Component` instead of `<Componen
 root.render(App);
 
 // ✅ Correct: <App /> is a component.
-root.render(<App />);
+root.render(<App />);root.render(<App />);
+
+### DOM Nesting Validation
+
+React performs runtime validation of DOM nesting to ensure valid HTML structure. As of React 18.x, this includes support for `<script>` and `<template>` elements within `<select>` tags, aligning with modern HTML specifications. This validation helps catch common markup errors during development.
 ```
 
 Or if you pass a function to `root.render`, instead of the result of calling it:

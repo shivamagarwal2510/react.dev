@@ -30,6 +30,34 @@ function MyDiv(props) {
     return <div {...props} style={getVerticalStyle()} />
   }
 }
+```**Bad:** Unexpected `layout` prop is forwarded to the `div` tag.
+
+```js
+function MyDiv(props) {
+  if (props.layout === 'horizontal') {
+    // BAD! Because you know for sure "layout" is not a prop that <div> understands.
+    return <div {...props} style={getHorizontalStyle()} />
+  } else {
+    // BAD! Because you know for sure "layout" is not a prop that <div> understands.
+    return <div {...props} style={getVerticalStyle()} />
+  }
+}
+```
+
+## Valid Elements Inside Select Tags
+
+React now supports using `<script>` and `<template>` tags inside `<select>` elements, in addition to the standard `<option>`, `<optgroup>`, and text nodes. This matches modern HTML specifications and provides more flexibility when building complex select components.
+
+```jsx
+<select>
+  <option>Option 1</option>
+  <script>
+    // Script content
+  </script>
+  <template>
+    // Template content
+  </template>
+</select>
 ```
 
 **Good:** The spread syntax can be used to pull variables off props, and put the remaining props into a variable.
