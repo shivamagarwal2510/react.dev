@@ -12,7 +12,38 @@ There are a couple of likely reasons this warning could be appearing:
 
 3. React does not yet recognize the attribute you specified. This will likely be fixed in a future version of React. React will allow you to pass it without a warning if you write the attribute name lowercase.
 
-4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.## Valid DOM Nesting
+
+React validates proper DOM element nesting according to HTML specifications. As of React [VERSION], the following nesting patterns are supported:
+
+- Inside `<select>` elements:
+  - `<option>` and `<optgroup>` for select options
+  - `<hr>` for visual separation
+  - `<script>` and `<template>` for dynamic content and templating
+  - Text nodes
+
+Invalid nesting patterns will trigger warnings in development mode to help catch potential issues early.4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.## Valid DOM Nesting
+
+React validates proper DOM element nesting according to HTML specifications. As of React [VERSION], the following nesting patterns are supported:
+
+- Inside `<select>` elements:
+  - `<option>` and `<optgroup>` for select options
+  - `<hr>` for visual separation
+  - `<script>` and `<template>` for dynamic content and templating
+  - Text nodes
+
+Invalid nesting patterns will trigger warnings in development mode to help catch potential issues early.
+
+Note: When working with `<select>` elements, React now supports including `<script>` and `<template>` tags as children, in addition to the standard `<option>`, `<optgroup>`, and text nodes. This follows HTML spec updates for valid DOM nesting rules. For example:
+
+```jsx
+<select>
+  <script>/* ... */</script>
+  <template>/* ... */</template>
+  <option>Choice 1</option>
+  <option>Choice 2</option>
+</select>
+```
 
 ---
 
