@@ -30,7 +30,29 @@ function MyDiv(props) {
     return <div {...props} style={getVerticalStyle()} />
   }
 }
+```### Valid DOM Nesting in Select Elements
+
+When working with `<select>` elements, React now supports the following valid child elements:
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example of valid nesting:
+```jsx
+<select>
+  <script>/* ... */</script>
+  <template>/* ... */</template>
+  <option>Option 1</option>
+  <optgroup>
+    <option>Grouped Option</option>
+  </optgroup>
+</select>
 ```
+
+This aligns with the HTML specification for valid content within `<select>` elements while providing additional flexibility for dynamic content generation through `<script>` and `<template>` tags.
 
 **Good:** The spread syntax can be used to pull variables off props, and put the remaining props into a variable.
 
