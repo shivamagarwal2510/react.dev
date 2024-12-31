@@ -12,7 +12,31 @@ There are a couple of likely reasons this warning could be appearing:
 
 3. React does not yet recognize the attribute you specified. This will likely be fixed in a future version of React. React will allow you to pass it without a warning if you write the attribute name lowercase.
 
-4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.
+4. You are using a React component without an upper case, for example `<myButton />`. React interprets it as a DOM tag because React JSX transform uses the upper vs. lower case convention to distinguish between user-defined components and DOM tags. For your own React components, use PascalCase. For example, write `<MyButton />` instead of `<myButton />`.## DOM Nesting Rules for &lt;select&gt;
+
+When working with `<select>` elements, React follows the HTML specification for valid child elements. As of React 18.x, the following elements are allowed within a `<select>` tag:
+
+- `<option>`
+- `<optgroup>` 
+- `<hr>`
+- `<script>`
+- `<template>`
+- Text nodes
+
+Example of valid nesting:
+
+```jsx
+<select>
+  <script>/* ... */</script>
+  <template>/* ... */</template>
+  <option>Option 1</option>
+  <optgroup>
+    <option>Grouped Option</option>
+  </optgroup>
+</select>
+```
+
+Attempting to render other elements inside `<select>` will result in a warning during development.
 
 ---
 
