@@ -20,6 +20,17 @@ The [built-in browser `<select>` component](https://developer.mozilla.org/en-US/
 ---
 
 ## Reference {/*reference*/}
+## Reference {/*reference*/}
+
+### Allowed child elements {/*allowed-child-elements*/}
+
+The `<select>` element allows the following child elements:
+- [`<option>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
+- [`<optgroup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup) 
+- [`<script>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
+- [`<template>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
+
+Text nodes are also allowed between options.
 
 ### `<select>` {/*select*/}
 
@@ -106,6 +117,22 @@ select { margin: 5px; }
 </Sandpack>  
 
 ---
+
+### Providing a label for a select box {/*providing-a-label-for-a-select-box*/}
+### Using script and template elements {/*using-script-and-template*/}
+
+You can include `<script>` and `<template>` elements inside a select box:
+
+```js
+<select>
+  <script>{/* Script content */}</script>
+  <template>{/* Template content */}</template>
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+</select>
+```
+
+This can be useful for advanced use cases involving dynamic option generation or templating.
 
 ### Providing a label for a select box {/*providing-a-label-for-a-select-box*/}
 
